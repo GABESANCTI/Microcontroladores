@@ -1,0 +1,75 @@
+
+ROM used: 1316 (16%)
+          1316 (16%) including unused fragments
+
+          2 Average locations per line
+          6 Average locations per statement
+
+RAM used: 23 (6%) at main() level
+          35 (10%) worst case
+
+Stack used: 6 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  175   159  68  main.c
+  326     0   0  C:\Program Files (x86)\PICC\devices\16F877A.h
+  165    75  32  mod_lcd.c
+----- -----
+  666   234 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   2   1             @delay_ms1
+0     15   1   1             @delay_us1
+0      8   1   0             @const66
+0     39   3   1   260  1.9  lcd_envia_nibble
+0     36   3   3   201  2.6  lcd_envia_byte
+0     65   5   2   463  4.2  lcd_ini
+0     18   1   4   186  5.5  lcd_pos_xy
+0     40   3   1   290  4.1  lcd_escreve
+0     31   2   0   282  3.2  timer1_isr
+0    635  48   1  5069  8.9  MAIN
+0     12   1   0             @const101
+0     70   5   3             @PSTRINGC7_81
+0     11   1   0             @const103
+0     78   6   4             @PSTRINGCN7_81
+0     21   2   3             @DIV88
+0     53   4   2             @PRINTF_U_81
+0     10   1   0             @const112
+0      8   1   0             @const113
+0      8   1   0             @const114
+0     10   1   0             @const115
+0      8   1   0             @const116
+0     10   1   0             @const117
+0      8   1   0             @const118
+0     10   1   0             @const119
+0      8   1   0             @const120
+0     10   1   0             @const121
+0      8   1   0             @const122
+0      8   1   0             @const123
+0      8   1   0             @const124
+
+Program metrics:
+    Functions               7
+    Statements              234
+    Comments                150
+    Volume (V)              8547
+    Difficilty (D)          29.4
+    Effort to implement (E) 250874
+    Time to implement (T)   3 hours, 52 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   48
+    Maintainability (MI)    114
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00030    45  0  
+00031-007FF  1267  732  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
